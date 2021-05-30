@@ -6,7 +6,7 @@ function CategoryCard({ categoryName, img }) {
       style={{
         height: "180px",
         width: "150px",
-        backgroundColor: "red",
+        backgroundColor: "gray",
         margin: "0 20px",
         borderRadius: "20px",
       }}
@@ -25,5 +25,4 @@ function CategoryCard({ categoryName, img }) {
     </div>
   );
 }
-
 export default CategoryCard;

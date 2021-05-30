@@ -23,15 +23,17 @@ function Category() {
     {
       name: "Hampers",
       image:
-        "https://img.etimg.com/thumb/msid-71700421,width-640,resizemode-4,imgsize-3434301/handcrafted-artisanal-and-decadent-hampers.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4wXIteM9VePVwDv6eqkDKgBVwYyAw9wAgsQ&usqp=CAU",
     },
     {
       name: "Doodles",
-      image: "https://adijha.com/dp.jpg",
+      image:
+        "https://i.pinimg.com/originals/8c/96/4d/8c964d956a46bfe610349244815572de.jpg",
     },
     {
       name: "Satins Cloths",
-      image: "https://adijha.com/dp.jpg",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3voHFfHGTFrISeDm4oHeuXu3aquNxDZn-jQ&usqp=CAU",
     },
   ];
 
