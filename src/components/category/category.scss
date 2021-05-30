@@ -1,4 +1,7 @@
-.love-category-wrap{
+.love-category-parent {
+  margin: 30px 0;
+}
+.love-category-wrap {
   display: flex;
   justify-content: space-around;
   overflow-x: scroll;
