@@ -1,9 +1,38 @@
-.love-category-parent {
-  margin: 30px 0;
+.love-category-parent h2 {
+  padding-left: 0.5rem;
 }
 .love-category-wrap {
   display: flex;
-  justify-content: space-around;
-  overflow-x: scroll;
+  // justify-content: space-around;
+  padding-left: 0.5rem;
   overflow-y: hidden;
+  overflow-x: hidden;
+  overflow-x: scroll;
+  gap: 20px;
 }
+
+//cards
+.love-category-card-parent {
+  border: 1px solid #d8d8d8;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 9rem;
+  height: 10rem;
+  background: linear-gradient(
+    36.63deg,
+    #5c8258 2.42%,
+    rgba(255, 255, 255, 0) 96.92%
+  );
+}
+
+.love-category-card-name {
+  text-align: center;
+
+  font-weight: bold;
+  // padding: 0 0.1%;
+  // white-space: nowrap;
+}
+
+// .love-category-card-image {
+// height: 42.5rem; //perfectly fix 2 category in view
+// }

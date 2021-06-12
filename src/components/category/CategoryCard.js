@@ -1,27 +1,10 @@
 import React from "react";
-
+import "./category.scss";
 function CategoryCard({ categoryName, img }) {
   return (
-    <div
-      style={{
-        height: "180px",
-        width: "150px",
-        backgroundColor: "gray",
-        margin: "0 20px",
-        borderRadius: "20px",
-      }}
-    >
-      <img
-        alt={categoryName}
-        src={img}
-        style={{
-          height: "100px",
-          objectFit: "contain",
-          borderTopLeftRadius: "20px",
-          borderTopRightRadius: "20px",
-        }}
-      />
-      <p style={{ textAlign: "center" }}>{categoryName}</p>
+    <div className="love-category-card-parent">
+      <p className="love-category-card-name">{categoryName}</p>
+      <img className="love-category-card-image" alt={categoryName} src={img} />
     </div>
   );
 }

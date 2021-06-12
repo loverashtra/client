@@ -1,39 +1,34 @@
 import React from "react";
 import "./category.scss";
 import CategoryCard from "./CategoryCard";
+import Candles from "../../assets/category/candles.svg";
 
 function Category() {
   //category list
   const categoryList = [
     {
       name: "Candles",
-      image:
-        "https://m.media-amazon.com/images/S/aplus-seller-content-images-us-east-1/A21TJRUUN4KGV/A82SOUTM340QI/B01HBUMV3U/hYVLOUFQyWz._UX900_TTW__.jpg",
+      image: Candles,
     },
     {
       name: "Wax melts & burner",
-      image:
-        "https://thumbs.dreamstime.com/b/using-homemade-mini-wax-melts-aromatherapy-lamp-diffuser-home-interior-concept-making-ingredients-table-unbleached-204418170.jpg",
+      image: Candles,
     },
     {
       name: "Scrunchies",
-      image:
-        "https://maneaddicts.com/wp-content/uploads/2021/04/curling-hair-with-scrunchies-tiktok-article-040821.jpg",
+      image: Candles,
     },
     {
       name: "Hampers",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4wXIteM9VePVwDv6eqkDKgBVwYyAw9wAgsQ&usqp=CAU",
+      image: Candles,
     },
     {
       name: "Doodles",
-      image:
-        "https://i.pinimg.com/originals/8c/96/4d/8c964d956a46bfe610349244815572de.jpg",
+      image: Candles,
     },
     {
       name: "Satins Cloths",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3voHFfHGTFrISeDm4oHeuXu3aquNxDZn-jQ&usqp=CAU",
+      image: Candles,
     },
   ];
 
