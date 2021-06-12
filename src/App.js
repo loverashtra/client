@@ -1,6 +1,6 @@
 import "./App.scss";
-import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
 import Home from "./pages/Home";
 // import Navbar from "./components/navbar/Navbar";
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
