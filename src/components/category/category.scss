@@ -13,26 +13,26 @@
 
 //cards
 .love-category-card-parent {
-  border: 1px solid #d8d8d8;
+  // border: 1px solid #d8d8d8;
   box-sizing: border-box;
   border-radius: 10px;
-  width: 9rem;
-  height: 10rem;
-  background: linear-gradient(
-    36.63deg,
-    #5c8258 2.42%,
-    rgba(255, 255, 255, 0) 96.92%
-  );
+  width: 10rem;
+  height: 11rem;
 }
 
 .love-category-card-name {
   text-align: center;
-
   font-weight: bold;
-  // padding: 0 0.1%;
+  padding: 0 3%;
   // white-space: nowrap;
+ 
 }
 
-// .love-category-card-image {
-// height: 42.5rem; //perfectly fix 2 category in view
-// }
+.love-category-card-image {
+  width: 10rem;
+  // margin-left: -30px !important;
+  margin-top: -20px !important;
+ 
+  // background-color: #5c8258;
+  // border-radius: 50px;
+}
