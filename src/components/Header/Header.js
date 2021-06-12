@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.scss";
 import { FiShoppingCart, FiMenu } from "react-icons/fi";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.svg";
 
 //helper functions
 const toggleMenu = () => {
