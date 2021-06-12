@@ -8,6 +8,7 @@ function Home() {
       <Category />
       <Popular />
     </div>
+    //
   );
 }
 
