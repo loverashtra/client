@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.scss";
 import { FiShoppingCart, FiMenu } from "react-icons/fi";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.svg";
 
 //helper functions
 const toggleMenu = () => {
@@ -33,7 +33,7 @@ function Header() {
   return (
     <div className="love-header">
       <FiMenu size={30} onClick={toggleMenu} />
-      <img src={logo} alt="logo" width={80} onClick={redirectToHome} />
+      <img src={logo} alt="logo" width={120} onClick={redirectToHome} />
       <FiShoppingCart size={30} onClick={redirectToCart} />
     </div>
   );
